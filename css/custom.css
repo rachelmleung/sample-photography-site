@@ -1,0 +1,17 @@
+
+/* Avoid custom structural style changes as they could conflict with the various elements of the bootstrap css */
+
+/* Color, Font and Size change OK */
+
+
+body {
+    background-color: #ddd;
+}
+
+h1 {
+    color: #488bc2
+}
+
+p {
+  color:#555;  
+}
