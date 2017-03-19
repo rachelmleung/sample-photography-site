@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #ddd;
+    background-color: #f8f8f8;
 }
 
 h1 {
@@ -14,4 +14,69 @@ h1 {
 
 p {
   color:#555;  
+}
+
+/* --------- Navigation ---------- */
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+/* ---------- jumbotron ----------- */
+.jumbotron {
+    background: #f8f8f8;
+    margin: 0 0 5em 0;
+}
+
+.jumbotron h1 {
+    font-size: 63px; /* default */
+    color:#333;
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-family: 'Open Sans';
+}
+
+.jumbotron p {
+    margin-bottom: 15px; /* default */
+    font-size: 21px; /* default */
+    font-weight: 200; /* default */
+    color:#333;
+    text-align: center;  
+    padding: 0 0 1em 0;
+    font-family: 'Open Sans';
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #d4b509;
+    border: 0px;
+    border-radius: 0px;
+    border-color: #fff;
+    
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c1a303;
+    border: 0px;
+    border-radius: 0px;
+    border-color: #fff;
+    
+}
+
+/* --------- footer copyright ---------- */
+
+.footer-copyright {
+    text-align: center;
+    background:#f0f0f0;
+}
+
+.footer-copyright i {
+    font-size: .8em;
+    color:#cbcaca;  
+    padding: 0 5% 0 0;    
 }
